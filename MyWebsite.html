@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mywebsite</title>
     <script src="https://kit.fontawesome.com/5a57a867e4.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="MyWebsite.css">
+    <link rel="stylesheet" href="css/MyWebsite.css">
 
 </head>
 
@@ -59,23 +59,23 @@
                 <p>
                     Hi, I'm Shayan, a freelance UI/UX Engineer from Pakistan. <br /> I help brands turn their dreams into high quality products.
                 </p>
-                <div class="field">
+                <form class="field" action="/" method="post">
                     <label>
-              <input type="text" placeholder="Email Address">
+              <input type="text" name="email" placeholder="Email Address">
               <button>Subscribe</button>
           </label>
-                </div>
+                </form>
                 <p>&#127881;Join my newsletter to get free strategies.</p>
             </div>
 
             <div class="img-div">
-                <img src="me.jpeg" alt="">
+                <img src="images/me.jpeg" alt="">
             </div>
 
         </div>
 
         <div class="curvy-shape">
-            <img src="header-shape.svg" alt="">
+            <img src="css/header-shape.svg" alt="">
         </div>
     </section>
 
@@ -100,7 +100,7 @@
             <div class="col-right reveal">
 
                 <div class="img-div">
-                    <img src="me.jpeg" alt="">
+                    <img src="images/me.jpeg" alt="">
                 </div>
 
             </div>
@@ -188,7 +188,7 @@
         <div class="content reveal">
             <div class="box">
                 <div class="box-img">
-                    <img src="project1.PNG" alt="">
+                    <img src="images/project1.PNG" alt="">
                 </div>
                 <div class="box-btn">
                     <a href="https://github.com/ShayanJamil519/Hair-Salon" target="_blank" class="btn">Github</a>
@@ -197,7 +197,7 @@
             </div>
             <div class="box">
                 <div class="box-img">
-                    <img src="ppp.jpg" alt="">
+                    <img src="images/ppp.jpg" alt="">
                 </div>
                 <div class="box-btn">
                     <a href="" class="btn">Github</a>
@@ -206,7 +206,7 @@
             </div>
             <div class="box">
                 <div class="box-img">
-                    <img src="ppp.jpg" alt="">
+                    <img src="images/ppp.jpg" alt="">
                 </div>
                 <div class="box-btn">
                     <a href="" class="btn">Github</a>
@@ -215,7 +215,7 @@
             </div>
             <div class="box">
                 <div class="box-img">
-                    <img src="ppp.jpg" alt="">
+                    <img src="images/ppp.jpg" alt="">
                 </div>
                 <div class="box-btn">
                     <a href="" class="btn">Github</a>
@@ -224,7 +224,7 @@
             </div>
             <div class="box">
                 <div class="box-img">
-                    <img src="ppp.jpg" alt="">
+                    <img src="images/ppp.jpg" alt="">
                 </div>
                 <div class="box-btn">
                     <a href="" class="btn">Github</a>
@@ -233,7 +233,7 @@
             </div>
             <div class="box">
                 <div class="box-img">
-                    <img src="ppp.jpg" alt="">
+                    <img src="images/ppp.jpg" alt="">
                 </div>
                 <div class="box-btn">
                     <a href="" class="btn">Github</a>
@@ -249,18 +249,18 @@
         <div class="container">
             <div class="content reveal">
                 <h2>Message me</h2>
-                <form netlify name="contact">
+                <form action="/" method="post">
                     <div class="input-box">
                         <label>Name<label>
-                    <input type="text">
+                    <input type="text" name="name">
             </div>
             <div class="input-box">
                 <label>Email</label>
-                        <input type="text">
+                        <input type="text" name="email">
                     </div>
                     <div class="input-box">
                         <label>Message</label>
-                        <textarea></textarea>
+                        <textarea name="message"></textarea>
                     </div>
                     <div>
                         <button type="submit">Send</button>
@@ -277,7 +277,7 @@
     </footer>
 
 
-    <script src="MyWebsite.js"></script>
+    <script type="text/javascript" src="js/MyWebsite.js"></script>
 </body>
 
 </html>
